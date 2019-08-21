@@ -1,10 +1,10 @@
-<h1>Cafe Tracker</h1>
+<h1>Restaurant Tracker</h1>
 <% if is_logged_in? %>
 	<h2>login complete - please choose an action</h2>
 	<ol>
 		<li><a href="/restaurants/edit">Edit a exsisting cafe</a>
 		</li>
-		<li><a href="/restaurants/index">View all your Cafes</a>
+		<li><a href="/restaurants">View all your Cafes</a>
 		</li>
 		<li><a href="/restaurants/new">Create a new cafe</a>
 		</li>
@@ -12,7 +12,7 @@
 		</li>
 	</ol>
 	<% else %>
-		<h2>Cafe Tracker lets you organize and view all your favorite places to drink coffee! Please login or signup to get started</h2>
+		<h2>Restaurant Tracker lets you organize and view all your favorite places to drink coffee! Please login or signup to get started</h2>
 		<ol>
 			<li><a href="/signup">Signup</a>
 			</li>
