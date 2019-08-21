@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>  
   <body>    
-    <h1>Restaurants</h1>    
+    <h1>Restaurants</h1>  
+    <p>name-location-wifi_avaliable</p>
     <% @restaurants.each do |restaurant| %>      
-    <%= restaurant.name %>      
-    <%= restaurant.location %>      
-    <%= restaurant.wifi_avaliable %>    
+    <p><%= restaurant.name %>-      
+    <%= restaurant.location %>-      
+    <%= restaurant.wifi_avaliable %> </p>   
     <% end %> 
     	<p><a href="/">home page</a></p>
   </body>
